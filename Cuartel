@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuartel de Ideas</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+
+    header img {
+      max-width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+      border-left: 3px solid #333;
+      padding-left: 15px;
+    }
+
+    h2 {
+      color: #66ff99;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    .idea img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 1px solid #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #222;
+    }
+
+    a {
+      color: #66ff99;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_the_Russian_Empire_%281858%E2%80%931883%29.svg/640px-Flag_of_the_Russian_Empire_%281858%E2%80%931883%29.svg.png" alt="Bandera del Imperio Ruso">
+    <h1>Cuartel de Ideas</h1>
+  </header>
+
+  <main>
+    <section class="idea">
+      <h2>✍ Primera Entrada</h2>
+      <p>Este es el inicio. Aquí irán mis ideas, dibujos o imágenes.  
+         Si no te gusta, podés cerrar el navegador con dignidad.</p>
+    </section>
+
+    <section class="idea">
+      <h2>📸 Imagen o Dibujo</h2>
+      <p>Acá irán mis piezas gráficas. Arte, memes o mapas tácticos.</p>
+      <img src="https://via.placeholder.com/600x400.png?text=Ejemplo+de+imagen" alt="Ejemplo de imagen">
+    </section>
+
+    <section class="idea">
+      <h2>🗒️ Apuntes Mentales</h2>
+      <p>Reflexiones, críticas, planes. Sin censura, sin filtros.  
+         Como buen camarada con cerebro encendido.</p>
+    </section>
+  </main>
+
+  <footer>
+    Página hecha por mí mismo, con orgullo imperial y mente subversiva.  
+    Código fuente: <a href="#">pendiente</a>
+  </footer>
+
+</body>
+</html>
